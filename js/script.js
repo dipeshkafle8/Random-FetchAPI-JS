@@ -1,5 +1,7 @@
 const fetchData=document.querySelectorAll(".fetchData");
 const displayOutput=document.querySelector("#displayOutput");
+
+//On displaying on UI
 function displayDataOnUI(data){ 
   console.log(data[0]); 
   for(let i=0;i<9;i++){
