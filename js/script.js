@@ -18,6 +18,7 @@ Swal.fire({
     icon: "error",
     confirmButtonText:"Retry"
   }).then((result)=>{
+    console.log(result);
     if(result.isConfirmed){
       fetchDataFromAPI();
     }
